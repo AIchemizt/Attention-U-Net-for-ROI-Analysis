@@ -131,6 +131,7 @@ Attention-U-Net-for-ROI-Analysis/
 │
 ├── attention-u-net-for-roi-analysis.ipynb (The main project notebook)
 ├── prediction_examples.png (Image of model predictions)
+├── training_curves.png (Image of model Performance)
 ├── .gitignore
 ├── LICENSE
 ├── README.md
