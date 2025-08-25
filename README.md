@@ -12,7 +12,7 @@
   <em>The model demonstrates high accuracy in segmenting cancerous regions, closely matching the ground truth masks provided by radiologists.</em>
 </p>
 <p align="center">
-  <img src="results/prediction_examples.png" width="800" />
+  <img src="prediction_examples.png" width="800" />
 </p>
 
 ---
@@ -49,7 +49,7 @@ The model was trained on the Kaggle platform, achieving excellent performance on
 #### **Training Performance**
 The learning curves demonstrate a healthy training process with no signs of significant overfitting, a result of the robust validation strategy and data augmentation.
 
-![Training Curves](results/training_curves.png)
+![Training Curves](training_curves.png)
 
 ---
 
@@ -83,7 +83,7 @@ This project utilizes the **CBIS-DDSM (Curated Breast Imaging Subset of DDSM)** 
 
 The simplest way to run this project is to use the same Kaggle environment where it was developed.
 
-1.  **Download the Notebook:** Download the `DSU_Net_Segmentation_Workflow.ipynb` file from the `notebooks/` directory in this repository.
+1.  **Download the Notebook:** Download the `DSU_Net_Segmentation_Workflow.ipynb` file from this repository.
 2.  **Navigate to Kaggle:** Go to the [CBIS-DDSM dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset).
 3.  **Create and Upload:** Click `New Notebook`, then in the new environment, go to `File > Upload Notebook` and select the `.ipynb` file you downloaded.
 4.  The notebook is now ready to run in an environment with the data and necessary GPU resources already attached.
@@ -118,17 +118,17 @@ Running this project locally requires a significant amount of disk space and a C
     -   Unzip the dataset and ensure the final structure is `data/csv/` and `data/jpeg/`.
 
 5.  **Run the Notebook:**
-    -   Launch Jupyter and open the `DSU_Net_Segmentation_Workflow.ipynb` notebook from the `notebooks/` directory.
+    -   Launch Jupyter and open the `DSU_Net_Segmentation_Workflow.ipynb` notebook from the project's root directory.
 
 ---
 
 ## 7. Directory Structure
+
 Attention-U-Net-for-ROI-Analysis/
 │
-├── DSU_Net_Segmentation_Workflow.ipynb (Main project notebook)
-│
-├── prediction_examples.png (Saved image of model predictions)
-│
+├── DSU_Net_Segmentation_Workflow.ipynb (The main project notebook)
+├── training_curves.png (Plot of training/validation metrics)
+├── prediction_examples.png (Image of model predictions)
 ├── .gitignore
 ├── LICENSE
 ├── README.md
