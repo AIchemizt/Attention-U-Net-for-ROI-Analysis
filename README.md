@@ -123,3 +123,26 @@ Running this project locally requires a significant amount of disk space and a C
 ---
 
 ## 7. Directory Structure
+Attention-U-Net-for-ROI-Analysis/
+│
+├── DSU_Net_Segmentation_Workflow.ipynb (Main project notebook)
+│
+├── prediction_examples.png (Saved image of model predictions)
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 8. License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
+
+## 9. Contact
+
+Abhishek Chandel – [LinkedIn](https://www.linkedin.com/in/abhishek-chandel-0b0a63127/)
