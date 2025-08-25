@@ -43,8 +43,8 @@ The model was trained on the Kaggle platform, achieving excellent performance on
 
 | Metric                       | Best Score Achieved |
 | :--------------------------- | :------------------ |
-| **Validation Dice Score**    | **0.9428**          |
-| **Validation IoU Score**     | **0.9114**          |
+| **Validation Dice Score**    | **0.9424**          |
+| **Validation IoU Score**     | **0.9107**          |
 
 #### **Training Performance**
 The learning curves demonstrate a healthy training process with no signs of significant overfitting, a result of the robust validation strategy and data augmentation.
@@ -70,7 +70,7 @@ The learning curves demonstrate a healthy training process with no signs of sign
 
 This project utilizes the **CBIS-DDSM (Curated Breast Imaging Subset of DDSM)** dataset, a large, standardized collection of mammography images for breast cancer research.
 
--   **Source:** [The Cancer Imaging Archive (TCIA)](https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM)
+-   **Source:** [The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/collection/cbis-ddsm/)
 -   **Kaggle Mirror:** [CBIS-DDSM Breast Cancer Image Dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset)
 
 **Note:** Due to its significant size (~150 GB), the dataset is not included in this repository. Please follow the instructions below to run the code in an environment with the data.
@@ -113,12 +113,12 @@ Running this project locally requires a significant amount of disk space and a C
     ```
 
 4.  **Download the Data:**
-    -   Download the full JPEG version of the dataset from the [Kaggle link](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset) above.
+    -   Download the full JPEG version of the dataset from the [Kaggle link](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset).
     -   Create a `data/` directory in the project root.
     -   Unzip the dataset and ensure the final structure is `data/csv/` and `data/jpeg/`.
 
 5.  **Run the Notebook:**
-    -   Launch Jupyter and open the `DSU_Net_Segmentation_Workflow.ipynb` notebook from the project's root directory.
+    -   Launch Jupyter and open the `attention-u-net-for-roi-analysis.ipynb` notebook from the project's root directory.
 
 ---
 
@@ -128,8 +128,7 @@ Running this project locally requires a significant amount of disk space and a C
 .
 Attention-U-Net-for-ROI-Analysis/
 │
-├── DSU_Net_Segmentation_Workflow.ipynb (The main project notebook)
-├── training_curves.png (Plot of training/validation metrics)
+├── attention-u-net-for-roi-analysis.ipynb (The main project notebook)
 ├── prediction_examples.png (Image of model predictions)
 ├── .gitignore
 ├── LICENSE
@@ -139,12 +138,6 @@ Attention-U-Net-for-ROI-Analysis/
 
 ---
 
-## 8. License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
----
-
-## 9. Contact
+## 8. Contact
 
 Abhishek Chandel – [LinkedIn](https://www.linkedin.com/in/abhishek-chandel-0b0a63127/)
