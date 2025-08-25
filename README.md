@@ -74,7 +74,7 @@ This project utilizes the **CBIS-DDSM (Curated Breast Imaging Subset of DDSM)** 
 -   **Source:** [The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/collection/cbis-ddsm/)
 -   **Kaggle Mirror:** [CBIS-DDSM Breast Cancer Image Dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset)
 
-**Note:** Due to its significant size (~150 GB), the dataset is not included in this repository. Please follow the instructions below to run the code in an environment with the data.
+**Note:** Due to its significant size (163.51GB), the dataset is not included in this repository. Please follow the instructions below to run the code in an environment with the data.
 
 ---
 
@@ -84,7 +84,7 @@ This project utilizes the **CBIS-DDSM (Curated Breast Imaging Subset of DDSM)** 
 
 The simplest way to run this project is to use the same Kaggle environment where it was developed.
 
-1.  **Download the Notebook:** Download the `DSU_Net_Segmentation_Workflow.ipynb` file from this repository.
+1.  **Download the Notebook:** Download the `attention-u-net-for-roi-analysis.ipynb` file from this repository.
 2.  **Navigate to Kaggle:** Go to the [CBIS-DDSM dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset).
 3.  **Create and Upload:** Click `New Notebook`, then in the new environment, go to `File > Upload Notebook` and select the `.ipynb` file you downloaded.
 4.  The notebook is now ready to run in an environment with the data and necessary GPU resources already attached.
