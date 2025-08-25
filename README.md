@@ -43,6 +43,7 @@ The model was trained on the Kaggle platform, achieving excellent performance on
 
 | Metric                       | Best Score Achieved |
 | :--------------------------- | :------------------ |
+| **Validation Loss Score**    | **0.1260**          |
 | **Validation Dice Score**    | **0.9424**          |
 | **Validation IoU Score**     | **0.9107**          |
 
