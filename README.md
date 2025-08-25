@@ -124,6 +124,8 @@ Running this project locally requires a significant amount of disk space and a C
 
 ## 7. Directory Structure
 
+```
+.
 Attention-U-Net-for-ROI-Analysis/
 │
 ├── DSU_Net_Segmentation_Workflow.ipynb (The main project notebook)
@@ -133,7 +135,7 @@ Attention-U-Net-for-ROI-Analysis/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
